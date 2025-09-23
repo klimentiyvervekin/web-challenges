@@ -12,7 +12,7 @@ body {
 main {
   width: 500px;
   height: 600px;
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 5em auto;
   position: relative;
 }
@@ -37,16 +37,27 @@ main {
 
 .box--top-left {
   background-color: #aed6f1;
+  position: absolute;
+  left: 0;
 }
 
 .box--top-right {
   background-color: #5dade2;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .box--bottom-left {
   background-color: #2874a6;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .box--bottom-right {
   background-color: #1b4f72;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
