@@ -10,7 +10,12 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const postTitle = "My First Post";
+const postContent = "text for content";
+const numberOfLikes = 100;
+numberOfLikes += 1;
+const post = "user123";
+const isReported = false;
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +23,9 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+console.log(postTitle);
+console.log(postContent);
+console.log(numberOfLikes);
+console.log(post);
+console.log(isReported);
 // --^-- write your code here --^--
