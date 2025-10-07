@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Create your Personal Profile</h1>
+    <form>
+      <p>We want to get to know you! Please enter your personal information.</p>
+
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="first-name">First Name:</label>
+        <input id="first-name" name="firstName" type="text" />
+
+        <label for="last-name">Last Name:</label>
+        <input id="last-name" name="lastName" type="text" />
+
+        <label for="birthday">Your Birthday:</label>
+        <input id="birthday" name="birthday" type="date" />
+      </fieldset>
+
+      <p>
+        Can you tell us a bit more? We wants to annoy you with unwanted ads.
+      </p>
+
+      <fieldset>
+        <legend>Further Information</legend>
+
+        <label for="fav-color">Favourite Color:</label>
+        <input id="fav-color" name="color" type="color" value="#E5430F" />
+
+        <label for="fav-pet">What is your favorite pet?</label>
+        <select id="fav-pet" name="favouritePet">
+          <option value="" selected disabled>
+            --Please choose an option--
+          </option>
+          <option>Agra Cadabra</option>
+          <option>Chicken Turtle</option>
+          <option>Fried Egg Jellyfish</option>
+        </select>
+        <button type="submit">submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
